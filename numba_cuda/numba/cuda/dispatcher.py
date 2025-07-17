@@ -7,7 +7,7 @@ import functools
 from numba.core import serialize, sigutils, types, typing, config
 from numba.cuda import utils
 from numba.core.caching import Cache, CacheImpl
-from numba.core.compiler_lock import global_compiler_lock
+from numba.cuda.core.compiler_lock import global_compiler_lock
 from numba.core.dispatcher import Dispatcher
 from numba.core.errors import NumbaPerformanceWarning
 from numba.core.typing.typeof import Purpose, typeof
