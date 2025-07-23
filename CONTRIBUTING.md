@@ -50,6 +50,11 @@ or
 pip install -e ".[dev-cu12]"
 ```
 
+Or, if you are using conda, run this in the root of the repository:
+```shell
+conda install pre-commit
+```
+
 Numba-CUDA uses [`pre-commit`](https://pre-commit.com/) to run a number of style
 checks in CI. To ensure your contribution will pass the checks, you can also set
 up pre-commit locally to run the checks prior to committing.
