@@ -58,12 +58,12 @@ dev = [
 ]
 dev-cu11 = [
     "numba-cuda[test-cu11]",
-    "numba-cuda[test]",
+    "numba-cuda[cu11]",
     "numba-cuda[dev]",
 ]
 dev-cu12 = [
     "numba-cuda[test-cu12]",
-    "numba-cuda[test]",
+    "numba-cuda[cu12]",
     "numba-cuda[dev]",
 ]
 
